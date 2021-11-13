@@ -25,6 +25,7 @@ public class Einkauf {
 
     @Override
     public int hashCode() {
+        // HashCode wird über ArticleName und Preis gebildet
         return Objects.hash(articleName, preis);
     }
 
