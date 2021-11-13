@@ -15,6 +15,7 @@ public class Person {
 
     public String rechneBMI(int gewicht) {
         double bmi = gewicht / Math.pow(koerpergroesse / 100.0, 2);
+        // Math.pow(basis, hochzahl) => führt eine Potenzierung durch => Basis hoch Hochzahl
 
         // Die if-Abfrage kann auch mit if-else geschrieben werden
         // in dem Fall bietet sich jedoch auch folgende Variante an

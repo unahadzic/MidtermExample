@@ -12,7 +12,7 @@ public class LottoZahlenApp {
         }
         System.out.println();
 
-        // Alternativ
+        // Alternative Ausgabe von Array wie folgt möglich
         System.out.println("Arrays.toString = " + Arrays.toString(zahlenTipp));
     }
 
